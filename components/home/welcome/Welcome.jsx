@@ -21,7 +21,7 @@ const Welcome = () => {
     <View>
       <View style={styles.container}>
         <Text style={styles.userName}>Hello Greg</Text>
-        <Text style={styles.welcomeMessage}>Finde your perfect job</Text>
+        <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
 
       <View style={styles.searchContainer}>
@@ -58,7 +58,7 @@ const Welcome = () => {
             </TouchableOpacity>
           )}
           keyExtractor={(item) => item}
-          contentContainerStyle={{ columnGap: SIZES.small }}
+          contentContainerStyle={{ columnGap: SIZES.large }}
           horizontal
         />
       </View>
